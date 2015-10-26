@@ -1,1 +1,408 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Embedded Capstone- Team 18</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#concept">Concept</a>
+                    </li>
+                    <li>
+                        <a href="#motivation">Motivation</a>
+                    </li>
+                    <li>
+                        <a href="#competitveanalysis">Competitve Analysis</a>
+                    </li>
+                    <li>
+                        <a href="#techspecs">Tech Specs</a>
+                    </li>
+                    <li>
+                        <a href="#requirements">Requirements</a>
+                    </li>
+                    <li>
+                        <a href="#architecture">Architecture</a>
+                    </li>
+                    <li>
+                        <a href="#finalproduct">Final Product</a>
+                    </li>
+                    <li>
+                        <a href="#video">Product Video</a>
+                    </li>
+					<li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ece.cmu.edu/~ece549/">18549 Home</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>18549 Team 18</h1>
+                        <h3>Embedded Capstone Project</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="concept"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Concept</h2>
+                    <p class="lead">Our mission is to create a system for researchers in the <a target="_blank" href="http://www.psy.cmu.edu/cs/">Children's School</a> that will allow them to track children's interactions. We will equip the children with tags and set up stations in key locations which will be able to detect when a child is nearby. We will then set up an web application for the researchers to access the collected data.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/station_interaction.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    <a  name="motivation"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Motivation</h2>
+                    <p class="lead">Currently, the resarchers at the Children's School do not have a good way to monitor the children's activities and interactions. One way they could do this is to constantly be watching the children, which requires constant work and might affect the children's behavior. With our system, the researchers will be able to remotely monitor the activities of the children and collect data with ease.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/no_solution.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    <a  name="competitveanalysis"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Competitive Analysis</h2>
+                    <p class="lead">There is currently no product that acts exactly like ours. There are some products that mimic features of our system but there is no product that exactly replicates ours.<br><br>
+                        <a target="_blank" href="http://www.brickhousesecurity.com/product/giggle+bug+child+locator.do?sortby=bestSellers&from=fn">Giggle Bug Child Locator</a> - This device allows parents to locate the children by sounding an alarm on the device affixed to their child. Our project will allow the researchers to locate the children without interrupting their activities.<br><br>
+                        <a target="_blank" href="http://support.apple.com/en-us/HT202880">iBeacon</a> - Apps can be written to determine whether an iOS device is within range of an iBeacon. Because we are interested in tracking young children, it is not feasible to give each child an iOS device and collect data about when they are within range of a certain station.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="row">
+                        <img class="img-responsive" src="img/giggle.jpg" alt="">
+                        <p>Giggle Bug Child Locator</p>
+                    </div>
+                    <div class="row">
+                        <img class="img-responsive" src="img/iBeacon.png" alt="">
+                        <p>iBeacon</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    <a  name="requirements"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="jumbotron">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Requirements</h2>
+                        <p class="lead">Functional Requirements:<br>
+                            <ul>
+                                <li>Our system shall determine whether or not a tag is within range of a beacon.</li>
+                                <li>Our system shall send data to a web application for the researchers to use.</li>
+                                <li>The tags shall be able to be powered for at least 8 hours, or the length of the school day.</li>
+                                <li>The tags and beacon shall communicate with each other using IEEE 802.15.4.</li>
+                            </ul>
+                        </p>
+                        <p class="lead">Non-functional Requirements:<br>
+                            <ul>
+                                <li>The tags shall be comfortable for children to carry or wear.</li>
+                                <li>The tags shall be safe for the children to carry or wear.</li>
+                                <li>The tags shall be durable enough to withstand a child's daily activities.</li>
+                                <li>The system shall be minimally intrusive with regards to the school's daily activities.</li>
+                                <li>The tags shall be powered by battery.</li>
+                            </ul><br>
+                        </p>
+                    </div>
+                </div>
+                <a name="techspecs"></a>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="jumbotron">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Tech Specs</h2>
+                        <p class="lead">Software</p>
+                            <ul>
+                                <li>VM on Google Compute</li>
+                            </ul>
+                        <p class="lead">Hardware</p>
+                        <ul>
+                            <li>Raspberry Pi</li>
+							<li>ATMEGA256RFR2 Xplained Pro</li>
+                        </ul>
+                        <p class="lead">Protocols</p>
+                        <ul>
+                            <li>802.15.4</li>
+                            <li>802.11</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    <a  name="architecture"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Architecture</h2>
+                    <p class="lead"></p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/architecture_heirarchy.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    <a  name="interaction"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="row">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Interaction Diagrams</h2>
+                        <p class="lead"></p>
+					</div>
+				</div>
+            </div>
+			<center>
+				<div class="row">
+					<img class="img-responsive" src="img/no_solution.jpg" height="720" width="720" alt="">
+					<p>1. Current Scenario</p>
+				</div>
+                <div class="row">
+                    <img class="img-responsive" src="img/child_interaction2.jpg" height="720" width="720" alt="">
+                    <p>2. Child at a Station</p>
+                </div>
+                <div class="row">
+                    <img class="img-responsive" src="img/station_interaction.jpg" height="720" width="720" alt="">
+                    <p>3. Multiple Children at a station</p>
+                </div>
+			</center>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <a  name="finalproduct"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Final Product</h2>
+                </div>
+            </div>
+			<center>
+                <img class="img-responsive" src="img/tag.png" alt="">
+				<p>This is the tag that we want to equip to each child.</p>
+				<a href="img/schematic.png">
+                <img class="img-responsive" src="img/schematic.png" height="720" width="720" alt="">
+				</a>
+				<p>Above is the schematic of our tag. It is based on the design of the ATMEGA256RFR2 Xplained Pro, available <a href="https://www.eewiki.net/download/attachments/17498477/ATMEGA256RFR2_Xplained_Pro_design_documentation_release_rev3.PDF?version=1&modificationDate=1371242186410&api=v2"> here</a>.</p>            
+				<a href="img/board.png">
+                <img class="img-responsive" src="img/board.png" height="240" width="240" alt="">
+				</a>
+				<p>This is the design of our tag.</p>
+				<img class="img-responsive" src="http://www.atmel.com/webdoc/mega256rfr2xplainedpro/images/ATmega256RFR2_Xplained_Pro_overview.jpg" alt="">
+				<p>The beacons that we are using are the <a href="http://www.atmel.com/tools/atmega256RFR2-XPRO.aspx">ATMEGA256RFR2 Xplained Pro</a> boards.</p>
+			</center>
+			
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <a  name="video"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Product Video</h2>
+                </div>
+            </div>
+			<center>
+			<iframe width="720" height="480" src="http://www.youtube.com/embed/9QJVIOjfpTQ">
+			</iframe>
+			<p>A short video explaining our project.</p>
+			</center>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+	<a  name="team"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Team Members:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="row">
+                                Lawrence
+                            </div>
+                            <div class="row">
+                                <img class="img-responsive" src="img/foo.jpg" alt="" height="100" width="100">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="row">
+                                Stephen
+                            </div>
+                            <div class="row">
+                                <img class="img-responsive" src="img/foo.jpg" alt="" height="100" width="100">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="row">
+                                Varun
+                            </div>
+                            <div class="row">
+                                <img class="img-responsive" src="img/foo.jpg" alt="" height="100" width="100">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="row">
+                                Sid
+                            </div>
+                            <div class="row">
+                                <img class="img-responsive" src="img/foo.jpg" alt="" height="100" width="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+ 
